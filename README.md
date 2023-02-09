@@ -6,3 +6,5 @@ Use `addpath(<paths to this directory>)` to use the functions in this directory.
 Functions explanation:
 
 `VAR2`: Two inputs: data matrix and the lag value. This function returns an object the contains prediction features using Vector Autoregression models.
+
+`SVAR_chol`: Similar to `VAR2`, but return the impulse response functions after using recursive identification.
